@@ -65,7 +65,7 @@ social:
 email: "rajat.tech.002@gmail.com"
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 ---
 
 Hi, I'm [Rajat], an [ML, NLP] Researcher
