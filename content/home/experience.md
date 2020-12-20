@@ -22,24 +22,41 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    location: California
-    date_start: '2017-01-01'
+  - title: Researcher
+    company: Tata Consultancy Services
+    company_url: 'https//www.tcs.com'
+    location: Noida, India
+    date_start: '2020-09-07'
     date_end: ''
     description: |2-
-        Responsibilities include:
+        Responsibilities include :
+      * Development of  
+        * Research Prototypes
+        * Tools  
+        * Products
+
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor
-    company: University X
-    company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Teaching Assistant
+    company: Dhirubhai Ambani Institute of Information and Communication Technology
+    company_url: 'https://www.daiict.ac.in/'
+    location: Gandhinagar, Gujarat
+    date_start: '2018-07-01'
+    date_end: '2020-05-31'
+    description: Subject taught- Algorithms
+
+  - title: Summer Research Intern
+    company: IIT Gandhinagar
+    company_url: 'https://iitgn.ac.in/'
+    location: Gandhinagar, Gujarat
+    date_start: '2019-05-15'
+    date_end: '2019-07-15'
+    description: Worked on project NILMTK (Non-Intrusive Load Monitoring Toolkit ), an open source toolkit on GitHub which focuses on providing a better interface for energy disaggregation problems. Also got a research paper accepted in ACM BuildSys 2019.
+
+  - title: Summer Research Intern
+    company: Raman Classes 
+    company_url: 'http://www.ramanclasses.in/'
+    location: Roorkee, Uttarakhand
+    date_start: '2017-05-15'
+    date_end: '2017-07-15'
+    description: Summer Training and Internship- Worked on Research Based Projects and Conference Paper. Understood basic ML and Statistics.
 ---
