@@ -1,15 +1,16 @@
 ---
-title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+title: Creating a Conda Installer for NILMTK during SRIP @ IIT- GN
+subtitle: The Non-Intrusive Load Monitoring Toolkit (NILMTK) helps in analyzing energy data collected in different formats by converting it to a standardized NILMTK-DF using dataset parsers and then providing benchmarking disaggregation algorithms plus comparing the performances of those algorithms using accuracy metrics.  
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary:  The Non-Intrusive Load Monitoring Toolkit (NILMTK) helps in analyzing energy data collected in different formats by converting it to a standardized NILMTK-DF using dataset parsers and then providing benchmarking disaggregation algorithms plus comparing the performances of those algorithms using accuracy metrics. 
 
+    
 # Link this post with a project
 projects: []
 
 # Date published
-date: "2016-04-20T00:00:00Z"
+date: "2019-05-19T00:00:00Z"
 
 # Date updated
 lastmod: "2020-12-13T00:00:00Z"
@@ -23,83 +24,111 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
   focal_point: ""
   placement: 2
   preview_only: false
 
 authors:
+- Ayush Pandey
+- Raktim Malakar
 - admin
-- 吳恩達
 
 tags:
 - Academic
-- 开源
-
+- NILMTK
+- NILMTK-Contrib
+- Energy Disaggregation
 categories:
-- Demo
-- 教程
+- Github
+- Energy Disaggregation
 ---
 
-## Overview
+Find original post at- 
+[https://sustainability-lab.github.io/2019/05/19/creating-conda-installer.html](https://sustainability-lab.github.io/2019/05/19/creating-conda-installer.html)
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+* Given the recurring installation issues of the package (especially on Windows), an important step forward towards the future releases of the package was to have a conda or pip installation of the package available to ease accessibility of the library. This would help focus the attention of the community to more of the core issues.
 
-{{< figure src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" title="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
+We were new to building packages for distribution, so we started by understanding the build process for python packages. The main NILMTK package had another dependency that was NILM specific, called the **nilm_metadata**. **NILMTK** was based on noarch architecture and so was platform independent, whereas **nilm_metadata** was platform dependent. So our aim was to build two python packages, with **nilm_metadata** being a dependency of **NILMTK**, so that ultimately the user only had to install NILMTK. This would reduce the current multiple step process of cloning the git repository of both the packages and installing them manually to a simple *conda install* command.   
 
-## Get Started
+Some past efforts to get a stable conda build helped us get a head start towards creating a build that works on all platforms. Building a conda package requires installing conda build and creating a conda build recipe. You then use the conda-build command to build the conda package from the conda recipe.
 
-- 👉 [**Create a new site**](https://wowchemy.com/templates/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+1. Installing *conda-build*  
 
-## Crowd-funded open-source software
+    `conda install conda-build`
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+2. Creating a conda-recipe for your package  
+    A conda recipe consists of two parts - a *meta.yaml* file that contains the metadata such as package name, package version, host requirements, etc to assist the build. It is a convention to create a *recipe* or *conda.recipe* directory inside your main package to store the recipe files. 
 
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/plans/)
+    ![Recipe](recipe.png "Recipe")
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/plans/) awesome rewards and extra features 🦄✨**
+    We already had a skeleton recipe available, but is easy to obtain one using:
+    * Existing recipes  
+         [https://github.com/AnacondaRecipes](https://github.com/AnacondaRecipes)  
+         [https://github.com/conda-forge](https://github.com/conda-forge)
+   
+    * Skeletons from other repositories (PyPI, CRAN, CPAN, RPM)
+            `conda skeleton pypi <package name on pypi>`  
+            or  
+            `conda skeleton cran <name of pkg on cran>`  
 
-## Ecosystem
+    * When all else fails, write a recipe
+         Only required section:  
+            ```
+            package:     
+              name: abc     
+              version: 1.2.3    
+             ```
+3. Listing the package dependencies  
+       The requirements section of the *meta.yaml* is where you list out all your dependencies.
 
-* **[Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin/):** An admin tool to automatically import publications from BibTeX
+    * Build requirements  
+        Tools to build packages with; things that don’t directly go into headers or linking  
+        Compilers  
+        autotools, pkg-config, m4, cmake  
+        archive tools  
 
-## Inspiration
+    * Host requirements  
+        External dependencies for the package that needs to be present at build time  
+        Headers, libraries, python/R/perl  
+        Python deps used in setup.py  
+        Not available at runtime, unless also specified in run section  
 
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/user-stories/) of personal, project, and business sites.
+    * Run requirements  
+        Things that need to be present when the package is installed on the end-user system  
+        Runtime libraries  
+        Python dependencies at runtime  
+        Not available at build time unless also specified in build/host section  
 
-## Features
+    > Note: Make sure you have listed out the correct version of your dependencies as future releases of those packages may cause incompatibility issues. 
+4. Creating the build files for the package  
+    The files required for building are the *build.sh* (Unix) or *bld.bat* (Windows) which consists of the actual commands to be executed during the building process.
 
-- **Page builder** - Create *anything* with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://wowchemy.com/docs/writing-markdown-latex/), [**Jupyter**](https://wowchemy.com/docs/import/jupyter/), or [**RStudio**](https://wowchemy.com/docs/install-locally/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://wowchemy.com/docs/customization/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 34+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+    > Note: Filenames are of paramount importance here.  
+    
+    All we need to do is execute the setup.py file. The commands are slightly different depending on the version. Our files contained:
+    * build.sh  
+        `$PYTHON setup.py install --single-version-externally-managed --record=record.txt`
+    * bld.bat  
+        `"%PYTHON%" setup.py install --single-version-externally-managed --record=record.txt
+        if errorlevel 1 exit 1`  
+5. Building the package
+    Change your directory to location of your recipes and run  
+    `conda build .`  
+    A successful build will give you the path to your newly built package and the command to upload it to anaconda-cloud.  
+    `anaconda upload <path of the tar.z2 file>`  
+    Login to your anaconda-cloud account or signup to create your own channel, and enter your login credentials during the upload prompt.  
 
-## Themes
+You can now checkout your anaconda-cloud page for your package. This here is the new NILMTK page.
+![NILMTK Page](featured.png "NILMTK Page") 
 
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
+We also learned the process to upload the package on **PyPI**, which was much simpler. The following documentation was very helpful in gaining insight into the *pip* packaging process:  
+[Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/ "Packaging Python Projects")  
 
-[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
+We also came across a method that allows for creating a *conda* installer of any package from an existing *pip* installer of the same package. So if you have an existing *pip* installer for your package, you can use a simple shell script that creates the skeleton recipes for your python version from the *pip* installer of the package, converts the package for other platforms and uploads it to *anaconda cloud*. Checkout the following blog for learning more about this process.  
+[Build a conda package from an existing PyPI package](https://medium.com/@giswqs/building-a-conda-package-and-uploading-it-to-anaconda-cloud-6a3abd1c5c52 "Build a conda package from an existing PyPI package")
 
-## License
+**References**  
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
+[Conda Packages](https://python-packaging-tutorial.readthedocs.io/en/latest/conda.html "Conda Packages")
 
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md) license.
+**Developing Article**
