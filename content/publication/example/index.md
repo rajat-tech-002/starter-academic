@@ -1,23 +1,26 @@
 ---
-title: "An example conference paper"
+title: "Towards reproducible state-of-the-art energy disaggregation"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- admin
-- Robert Ford
+- Nipun Batra
+- Rithwik Kukunuri
+- Ayush Pandey
+- Raktim Malakar
+- Rajat Kumar
+- Odysseas Krystalakos
+- Mingjun Zhong
+- Paulo Meira
+- Oliver Parson.
 
-# Author notes (optional)
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
 
-date: "2013-07-01T00:00:00Z"
-doi: ""
+date: "2019-07-01T00:00:00Z"
+doi: "https://doi.org/10.1145/3360322.3360844"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+# publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -26,13 +29,14 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: In *BuildSys 2019*
+publication_short: In *ACM*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: 
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+
+summary: In this paper, we have have described two key improvements to NILMTK; a rewritten model interface to simplify authoring of new disaggregation algorithms, and a new experiment API through which algorithmic comparisons can be specified with relatively little model knowledge. In addition, we have introduced NILMTKcontrib, a new repository containing 3 benchmarks and 9 modern disaggregation algorithms. In addition, such algorithms will be continuously evaluated in a range of pre-defined scenarios to produce an ongoing NILM competition
 
 tags: []
 
