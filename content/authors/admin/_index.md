@@ -67,24 +67,27 @@ email: "rajat.tech.002@gmail.com"
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+### **कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।**
 
-Hi, I'm [Rajat], an [ML, NLP] Researcher
+### **मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥**
 
-What could possibly be a virtual verse? A Personal Computer?
+>_I am a Researcher at the Research and Innovation Division of [Tata Consultancy Services (TCS)](https://www.tcs.com/research-and-innovation), where I work  in [Deep Learning and AI Group](https://www.tcs.com/bridging-the-human-machine-divide) since Sep 2020._ 
 
-Why Information is the new HIGH?
+**What could possibly be a virtual verse? A Personal Computer?**
 
-Hello There!
-A Famous Saying by Elon Musk-
-"Failure is an option here. If things are not failing, you are not innovating enough."
+**Why Information is the new HIGH?**
 
 
-I am Rajat Kumar. Recently completed my M. Tech @ DA-IICT, Gandhinagar. Being a Science lover, I have always shown interest in knowing the truth about anything I pursue. For Example, the truth about why to become an engineer? Why to choose a research path?
+### A Famous Saying by Elon Musk-
 
-Well, every question has a so called "Relative Answer" not an "Absolute Answer". Which certainely makes this world "Unpredictable" and "Curious".
+___"Failure is an option here. If things are not failing, you are not innovating enough."___
 
-Can't put the phenomenal experience of holding a meaningful pathway ahead after being a sincere M. Tech student at DA-IICT in a few lines. The DREAM that one sees should be BIG enough and WORK-OUT harder to achieve them. Further, I don't perceive a distinction between Time-Pass and Passing-The-Time. I believe learning new things is an immeasurable time pass. By the way, to let you know, Success is a Social-Construct. 
+:wave::wave::wave:    :book::book::book::book:   :pencil2::pencil2::pencil2::pencil2:  :book::book::book::book: :running::running::running:   :smile::smile::smile::smile: 
 
-Thanks
+>_Can't put the phenomenal experience of holding a meaningful pathway ahead after being a sincere M. Tech student at [Dhirubhai Ambani Institute of Information and Communication Technology](https://www.daiict.ac.in/) in a few lines. I was supervised by [Prof. Amit Mankodi](https://www.daiict.ac.in/profile/amit-mankodi/) and co-supervised by [Dr. Amit Bhatt](https://www.daiict.ac.in/profile/amit-bhatt/) and [Dr. Bhaskar Chaudhary](https://www.daiict.ac.in/profile/bhaskar-chaudhury/)._ 
+
+`<The DREAM that one sees should be BIG enough and WORK-OUT harder to achieve them. Further, I don't perceive a distinction between Time-Pass and Passing-The-Time. I believe learning new things is an immeasurable time pass. By the way, to let you know, Success is a Social-Construct.>`
+
+
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resume{{< /staticref >}}.
