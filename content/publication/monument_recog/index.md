@@ -1,23 +1,22 @@
 ---
-title: "Towards reproducible state-of-the-art energy disaggregation"
+title: "Image based Indian monument recognition using convoluted neural networks"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Nipun Batra
-- Rithwik Kukunuri
-- Ayush Pandey
-- Raktim Malakar
+- Aradhya Saini
+- Tanu Gupta
+- admin
+- Akshay Kumar Gupta
 - Rajat Kumar
-- Odysseas Krystalakos
-- Mingjun Zhong
-- Paulo Meira
-- Oliver Parson.
+- Monika Panwar
+- Ankush Mittal
 
 
-date: "2019-07-01T00:00:00Z"
-doi: "https://doi.org/10.1145/3360322.3360844"
+
+date: "2018-04-20T00:00:00Z"
+doi: "https://doi.org/10.1109/BID.2017.8336587"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -29,16 +28,17 @@ doi: "https://doi.org/10.1145/3360322.3360844"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *BuildSys 2019*
-publication_short: In *ACM*
+publication: In *2017 International Conference on Big Data, IoT and Data Science (BID)*
+publication_short: In *IEEE*
 
 abstract: 
 
 # Summary. An optional shortened abstract.
 
-summary: In this paper, we have have described two key improvements to NILMTK; a rewritten model interface to simplify authoring of new disaggregation algorithms, and a new experiment API through which algorithmic comparisons can be specified with relatively little model knowledge. In addition, we have introduced NILMTKcontrib, a new repository containing 3 benchmarks and 9 modern disaggregation algorithms. In addition, such algorithms will be continuously evaluated in a range of pre-defined scenarios to produce an ongoing NILM competition
+summary: Monument recognition is a challenging problem in the domain of image classification due to huge variations in the architecture of different monuments. Different orientations of the structure play an important role in the recognition of the monuments in their images. The paper proposes an approach for classification of various monuments based on the features of the monument images. The state-of-the-art Deep Convolutional Neural Networks (DCNN) is used for extracting representations. The model is trained on representations of different Indian monuments, obtained from cropped images, which exhibit geographic and cultural diversity. Experiments have been carried out on the manually acquired dataset that is composed of images of different monuments where each monument has images from different angular views. The experiments show the performance of the model when it is trained on representations of cropped images of the various monuments. The overall accuracy achieved is 92.7%, using DCNN, for a total of 100 different monuments that have been considered in the dataset for classification.
 
-tags: []
+tags: [Monument recognition, Convolutional Neural 
+Networks, Deep Learning]
 
 # Display this page in the Featured widget?
 featured: true
@@ -60,7 +60,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
