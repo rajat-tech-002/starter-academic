@@ -31,7 +31,7 @@ publication_types: ["1"]
 publication: In *2017 International Conference on Big Data, IoT and Data Science (BID)*
 publication_short: In *IEEE*
 
-abstract: 
+abstract: Monument recognition is a challenging problem in the domain of image classification due to huge variations in the architecture of different monuments. Different orientations of the structure play an important role in the recognition of the monuments in their images. The paper proposes an approach for classification of various monuments based on the features of the monument images. The state-of-the-art Deep Convolutional Neural Networks (DCNN) is used for extracting representations. The model is trained on representations of different Indian monuments, obtained from cropped images, which exhibit geographic and cultural diversity. Experiments have been carried out on the manually acquired dataset that is composed of images of different monuments where each monument has images from different angular views. The experiments show the performance of the model when it is trained on representations of cropped images of the various monuments. The overall accuracy achieved is 92.7%, using DCNN, for a total of 100 different monuments that have been considered in the dataset for classification.
 
 # Summary. An optional shortened abstract.
 
