@@ -82,7 +82,6 @@ highlight_name: true
 
 ___"Failure is an option here. If things are not failing, you are not innovating enough."___
 
-:wave::wave::wave:    :book::book::book::book:   :pencil2::pencil2::pencil2::pencil2:  :book::book::book::book: :running::running::running:   :smile::smile::smile::smile: 
 
 >_Can't put the phenomenal experience of holding a meaningful pathway ahead after being a sincere M. Tech student at [Dhirubhai Ambani Institute of Information and Communication Technology](https://www.daiict.ac.in/) in a few lines. I was supervised by [Prof. Amit Mankodi](https://www.daiict.ac.in/profile/amit-mankodi/) and co-supervised by [Dr. Amit Bhatt](https://www.daiict.ac.in/profile/amit-bhatt/) and [Dr. Bhaskar Chaudhary](https://www.daiict.ac.in/profile/bhaskar-chaudhury/)._ 
 
