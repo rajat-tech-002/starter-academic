@@ -52,8 +52,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://drive.google.com/file/d/1PWM8XIxc9dwHGQoDd80Y15E8yz91hmy9/view?usp=sharing'
+url_code: 'https://github.com/rajatgupta1234/Evaluating-Machine-Learning-Models-for-Disparate-Computer-Systems-Performance-Prediction'
 url_dataset: ''
 url_poster: ''
 url_project: ''

@@ -7,9 +7,8 @@ title: "Image based Indian monument recognition using convoluted neural networks
 authors:
 - Aradhya Saini
 - Tanu Gupta
-- admin
-- Akshay Kumar Gupta
 - Rajat Kumar
+- Akshay Kumar Gupta
 - Monika Panwar
 - Ankush Mittal
 
@@ -48,7 +47,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://drive.google.com/file/d/1d4Q61UBjWxrpHXmgcs8F8WtCN5Z-PnDh/view?usp=sharing'
 url_code: ''
 url_dataset: ''
 url_poster: ''

@@ -52,8 +52,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://drive.google.com/file/d/1z__mdPmBJA2o7j_FnJzR3kGjb_a1euvy/view?usp=sharing'
+url_code: 'https://github.com/rajatgupta1234/Cross-Platform-Performance-Prediction-with-Transfer-Learning-using-Machine-Learning'
 url_dataset: ''
 url_poster: ''
 url_project: ''
