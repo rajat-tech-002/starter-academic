@@ -6,11 +6,11 @@ title: Rajat Kumar
 superuser: true
 
 # Role/position/tagline
-role: NLP Researcher 
+role: Researcher 
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: TCS Research and Innovation Labs
+- name: TCS Research 
   url: https://www.tcs.com/tcs-research
 
 # Short bio (displayed in user profile at end of posts)
