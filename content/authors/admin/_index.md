@@ -67,23 +67,27 @@ email: "rajat.tech.002@gmail.com"
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-### **कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।**
+---
+I work as a Researcher at the Research and Innovation Division of [Tata Consultancy Services (TCS)](https://www.tcs.com/research-and-innovation), where I work  in [Deep Learning and AI Group](https://www.tcs.com/bridging-the-human-machine-divide).
 
-### **मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥**
+* My Research interests include:
+  * Intersection of Deep learning and Natural Language processing
+  * Application of Unsupervised and Semi-Supervised methods on real world problems
 
->_I am a Researcher at the Research and Innovation Division of [Tata Consultancy Services (TCS)](https://www.tcs.com/research-and-innovation), where I work  in [Deep Learning and AI Group](https://www.tcs.com/bridging-the-human-machine-divide) since Sep 2020._ 
+---
 
-**What could possibly be a virtual verse? A Personal Computer?**
+>`<What could possibly be a virtual verse? A Personal Computer?>`
 
-**Why Information is the new HIGH?**
+>`<Why Information is the new HIGH?>`
+---
+## &nbsp;&nbsp;&nbsp;&nbsp;**कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।**
+
+## &nbsp;&nbsp;&nbsp;&nbsp;**मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥**
+---
+Can't put the phenomenal experience of holding a meaningful pathway ahead after being a sincere M. Tech student at [Dhirubhai Ambani Institute of Information and Communication Technology](https://www.daiict.ac.in/) in a few lines. I was supervised by [Prof. Amit Mankodi](https://www.daiict.ac.in/profile/amit-mankodi/) and co-supervised by [Dr. Amit Bhatt](https://www.daiict.ac.in/profile/amit-bhatt/) and [Dr. Bhaskar Chaudhary](https://www.daiict.ac.in/profile/bhaskar-chaudhury/). 
 
 
-### A Famous Saying by Elon Musk-
-
-___"Failure is an option here. If things are not failing, you are not innovating enough."___
-
-
->_Can't put the phenomenal experience of holding a meaningful pathway ahead after being a sincere M. Tech student at [Dhirubhai Ambani Institute of Information and Communication Technology](https://www.daiict.ac.in/) in a few lines. I was supervised by [Prof. Amit Mankodi](https://www.daiict.ac.in/profile/amit-mankodi/) and co-supervised by [Dr. Amit Bhatt](https://www.daiict.ac.in/profile/amit-bhatt/) and [Dr. Bhaskar Chaudhary](https://www.daiict.ac.in/profile/bhaskar-chaudhury/)._ 
+---
 
 `<The DREAM that one sees should be BIG enough and WORK-OUT harder to achieve them. Further, I don't perceive a distinction between Time-Pass and Passing-The-Time. I believe learning new things is an immeasurable time pass. By the way, to let you know, Success is a Social-Construct.>`
 
