@@ -30,7 +30,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *BuildSys 2019*
-publication_short: In *ACM*
+publication_short: In *Proceedings of the 6th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation*
 
 abstract: Non-intrusive load monitoring (NILM) or energy disaggregation is the task of separating the household energy measured at the aggregate level into constituent appliances. In 2014, the NILM toolkit (NILMTK) was introduced in an effort towards making NILM research reproducible. Despite serving as the reference library for data set parsers and reference benchmark algorithm implementations, few publications presenting algorithmic contributions within the field went on to contribute implementations back to the toolkit. This paper describes two significant contributions to the NILM community in an effort towards reproducible state-of-the-art research i) a rewrite of the disaggregation API and a new experiment API which lower the barrier to entry for algorithm developers and simplify the definition of algorithm comparison experiments, and ii) the release of NILMTK-contrib; a new repository containing NILMTK-compatible implementations of 3 benchmarks and 9 recent disaggregation algorithms. We have performed an extensive empirical evaluation using a number of publicly available data sets across three important experiment scenarios to showcase the ease of performing reproducible research in NILMTK.
 
