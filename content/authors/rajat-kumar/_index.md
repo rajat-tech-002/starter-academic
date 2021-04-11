@@ -50,7 +50,7 @@ social:
   link: https://scholar.google.co.in/citations?hl=en&user=Kc6YNPEAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/rajatgupta1234
+  link: https://github.com/rajat-tech-002
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/rajat-kumar-543b8a12b/

@@ -48,7 +48,7 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://drive.google.com/file/d/1KPvo1-ElgzpjnhkXA-wgBCN7oS01G2ND/view?usp=sharing'
-url_code: 'https://github.com/rajat-tech-002/Modeling-Performance-and-Power-on-Disparate-Platforms-using-Transfer-Learning-with-Machine-Learning-s'
+url_code: 'https://github.com/rajat-tech-002/Modeling-Performance-and-Power-on-Disparate-Platforms-using-Transfer-Learning-with-Machine-Learning-'
 url_dataset: ''
 url_poster: ''
 url_project: ''
