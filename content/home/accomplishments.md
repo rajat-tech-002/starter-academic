@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://drive.google.com/file/d/1VYBzklaXFWnqC2d4Rq9Dvhxs5NPVcO-G/view?usp=sharing
+- certificate_url: https://drive.google.com/file/d/1xzcFZWm2PdaqR0iD8FeBgJja4ubMblbr/view?usp=sharing
   date_end: ""
   date_start: "2020-12-07"
   description: ""
@@ -31,7 +31,24 @@ item:
   organization_url: https://www.journalajpas.com/index.php/AJPAS
   title: Certificate of Excellence in Reviewing
   url: ""
-- certificate_url: https://drive.google.com/file/d/1mOEPWrRLPJQnN6oEoMhk_1ETuIVjGAc4/view?usp=sharing
+- certificate_url: https://drive.google.com/file/d/18ekCJPDmnofoTYgThUdQu8j2pHaHwLiz/view?usp=sharing
+  date_end: ""
+  date_start: "2018-12-06"
+  description: ""
+  organization: FIRE Conference
+  organization_url: https://dl.acm.org/conference/fire
+  title: Forum for Information Retrieval Evaluation
+  url: ""
+
+- certificate_url: https://drive.google.com/file/d/1guRwzVMGn4KSJ4c05vj22UQ2DDtnBjW6/view?usp=sharing
+  date_end: ""
+  date_start: "2015-02-04"
+  description: "Held at Guru Nanak Dev University, Amritsar"
+  organization: National JUDO Championship
+  organization_url: ""
+  title: All India Inter University Judo Tournament
+  url: ""
+- certificate_url: https://drive.google.com/file/d/1dAvQG6KoE7R9t-k1DXOLB6_KuilNLiSk/view?usp=sharing
   date_end: ""
   date_start: "2020-02-01"
   description: ""
@@ -39,7 +56,7 @@ item:
   organization_url: https://www.linkedin.com/company/association-for-computing-machinery/
   title: ACM Certificate of Participation
   url: ""
-- certificate_url: https://drive.google.com/open?id=1V-U3hYtljwhgjv1_7NyH4l9Rykmpgzkg
+- certificate_url: https://drive.google.com/file/d/1VS5QibUHYUwtOOyT3hScV2Eh1kCMFnnC/view?usp=sharing
   # company_url: 'https://iitgn.ac.in/'
   location: Gandhinagar, Gujarat
   date_start: '2019-05-15'
@@ -57,7 +74,7 @@ item:
   organization_url: https://www.linkedin.com/company/flipkart/
   title: Flipkart Grid Challenge (Level 1) 
   url: ""
-- certificate_url: https://drive.google.com/open?id=1yhdTVj15wlokXJajDxzYwIuEmm-l43Nz
+- certificate_url: https://drive.google.com/file/d/1zDkHw5w5P45w66f_LEwIt7UHh23Ew84I/view?usp=sharing
   date_end: ""
   date_start: "2019-03-15"
   description: ""
@@ -66,7 +83,7 @@ item:
   title: Fundamentals of Deep Learning for Computer Vision 
   url: ""
 
-- certificate_url: https://drive.google.com/open?id=1ZVfSCum_M7u5Rwws6fNPQQ73DCl5Y1_o
+- certificate_url: https://drive.google.com/file/d/1FxI6qf8FSHgkb3Lf9iTPEMTEz_INVPKh/view?usp=sharing
   date_start: "2018-07-15"
   description: ""
   organization: IEEE Computer Society  
@@ -75,7 +92,7 @@ item:
   url: ""  
 
 
-- certificate_url: ""
+- certificate_url: https://drive.google.com/file/d/1Ooe-dmQr5bJN5s1Ghz3ejDFOfTFNEnVp/view?usp=sharing
   date_start: "2013-05-15"
   description: ""
   organization: Lord Mahavira Academy
