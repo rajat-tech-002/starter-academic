@@ -68,12 +68,17 @@ email: "rajat.tech.002@gmail.com"
 highlight_name: true
 ---
 ---
-I work as a Researcher at the Research and Innovation Division of [Tata Consultancy Services (TCS)](https://www.tcs.com/research-and-innovation), where I work  in [Deep Learning and AI Group](https://www.tcs.com/bridging-the-human-machine-divide).
+
+I am a Researcher at [TCS Research](https://www.linkedin.com/showcase/tcs-research/), where I work with [Mayur Patidar](https://scholar.google.co.in/citations?user=4dzFVVYAAAAJ&hl=en) and [Vaibhav Varsheney](https://scholar.google.com/citations?user=j9uFRYIAAAAJ&hl=en)  in [Deep Learning and AI Group](https://www.tcs.com/bridging-the-human-machine-divide) since September 2020. 
 
 * My Research interests include:
-  * Intersection of Deep learning and Natural Language processing
+  * Intersection of Deep learning and Natural Language processing 
   * Application of Unsupervised and Semi-Supervised methods on real world problems
 
+
+
+---
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resume{{< /staticref >}}.
 ---
 
 >`<What could possibly be a virtual verse? A Personal Computer?>`
@@ -91,6 +96,3 @@ Can't put the phenomenal experience of holding a meaningful pathway ahead after 
 
 `<The DREAM that one sees should be BIG enough and WORK-OUT harder to achieve them. Further, I don't perceive a distinction between Time-Pass and Passing-The-Time. I believe learning new things is an immeasurable time pass. By the way, to let you know, Success is a Social-Construct.>`
 
-
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resume{{< /staticref >}}.
