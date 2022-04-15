@@ -37,10 +37,12 @@ tags:
 - NLP Interview
 - RnD
 - Placement
+- TCS Research
 categories:
 - Github
 - NLP Interview
 - RnD
+- TCS Research
 ---
 
 #### Find original post at- [TCS Research Interview Experience @Medium](https://rajat-tech-002.medium.com/tcs-innovation-labs-interview-experience-29381bbc999b)
