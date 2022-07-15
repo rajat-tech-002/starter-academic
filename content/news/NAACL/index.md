@@ -42,7 +42,9 @@ categories:
 - NAACL 2022
 ---
 ## **Two of Our Papers got accepted at NAACL 2022**
-####  Upcoming list....
+####  Upcoming list.... 
 ##### **Reference**= https://www.linkedin.com/feed/update/urn:li:activity:6918240333394821120/  
+##### **Main Track**= [Intent Detection and Discovery from User Logs via Deep Semi-Supervised Contrastive Clustering](https://aclanthology.org/2022.naacl-main.134/)
+#### **Findings Paper** = [Prompt Augmented Generative Replay via Supervised Contrastive Learning for Lifelong Intent Detection](https://aclanthology.org/2022.findings-naacl.84/)
 [Tata Consultancy Services - Research](https://www.linkedin.com/showcase/tcs-research/) 
 
