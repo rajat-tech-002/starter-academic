@@ -69,11 +69,14 @@ highlight_name: true
 ---
 ---
 
-I am a Researcher at [TCS Research](https://www.linkedin.com/showcase/tcs-research/), where I work with [Mayur Patidar](https://scholar.google.co.in/citations?user=4dzFVVYAAAAJ&hl=en) and [Vaibhav Varsheney](https://scholar.google.com/citations?user=j9uFRYIAAAAJ&hl=en)  in [Deep Learning and AI Group](https://www.tcs.com/bridging-the-human-machine-divide) since September 2020. 
+I am a Researcher at [TCS Research](https://www.linkedin.com/showcase/tcs-research/), where I work with [Mayur Patidar](https://scholar.google.co.in/citations?user=4dzFVVYAAAAJ&hl=en) and [Vaibhav Varsheney](https://scholar.google.com/citations?user=j9uFRYIAAAAJ&hl=en)  in [Deep Learning and AI Group](https://www.tcs.com/bridging-the-human-machine-divide) since September 2020 under the guidance of [Dr. Lovekesh Vig](https://sites.google.com/site/lovekeshhome/).
+
+---
 
 * My Research interests include:
-  * Intersection of Deep learning and Natural Language processing 
+  * Deep learning ∩ Natural Language processing 
   * Application of Unsupervised and Semi-Supervised methods on real world problems
+  
 
 
 

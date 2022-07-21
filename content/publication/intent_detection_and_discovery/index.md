@@ -31,8 +31,7 @@ abstract: Intent Detection is a crucial component of Dialogue Systems wherein th
 
 # Summary. An optional shortened abstract.
 
-summary: In this paper, we have have described two key improvements to NILMTK; a rewritten model interface to simplify authoring of new disaggregation algorithms, and a new experiment API through which algorithmic comparisons can be specified with relatively little model knowledge. In addition, we have introduced NILMTKcontrib, a new repository containing 3 benchmarks and 9 modern disaggregation algorithms. In addition, such algorithms will be continuously evaluated in a range of pre-defined scenarios to produce an ongoing NILM competition
-
+summary: 
 tags: [semi-supervised, deep-clustering, intent detection, intent discovery, user-logs, contrastive clustering]
 
 # Display this page in the Featured widget?
@@ -43,7 +42,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://aclanthology.org/2022.naacl-main.134.pdf'
+url_pdf: 'https://aclanthology.org/2022.naacl-main.134/'
 url_code: ''
 url_dataset: ''
 url_poster: ''
