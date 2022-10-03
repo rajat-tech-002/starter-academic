@@ -6,12 +6,12 @@ title: Rajat Kumar
 superuser: true
 
 # Role/position/tagline
-role: Researcher 
+role: Research Associate II 
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: TCS Research 
-  url: https://www.tcs.com/tcs-research
+- name: Philips Research 
+  url: https://www.philips.com/a-w/about/innovation/research.html
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Natural Language Processing, Machine Learning and Data Science.
@@ -69,7 +69,12 @@ highlight_name: true
 ---
 ---
 
-I am a Researcher at [TCS Research](https://www.linkedin.com/showcase/tcs-research/), where I work with [Mayur Patidar](https://scholar.google.co.in/citations?user=4dzFVVYAAAAJ&hl=en) and [Vaibhav Varsheney](https://scholar.google.com/citations?user=j9uFRYIAAAAJ&hl=en)  in [Deep Learning and AI Group](https://www.tcs.com/bridging-the-human-machine-divide) since September 2020 under the guidance of [Dr. Lovekesh Vig](https://sites.google.com/site/lovekeshhome/).
+I am a Researcher at [Philips Research](https://www.linkedin.com/company/philips/mycompany/verification/) where I work in [Healthcare Department](https://www.philips.com/a-w/about/innovation/research.html) since October 2022.
+
+---
+Prior to that, I was a Researcher at [TCS Research](https://www.linkedin.com/showcase/tcs-research/), where I worked with [Mayur Patidar](https://scholar.google.co.in/citations?user=4dzFVVYAAAAJ&hl=en) and [Vaibhav Varsheney](https://scholar.google.com/citations?user=j9uFRYIAAAAJ&hl=en) in [Deep Learning and AI Group](https://www.tcs.com/bridging-the-human-machine-divide) since September 2020 under the guidance of [Dr. Lovekesh Vig](https://sites.google.com/site/lovekeshhome/).
+
+
 
 ---
 
@@ -92,6 +97,7 @@ I am a Researcher at [TCS Research](https://www.linkedin.com/showcase/tcs-resear
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;**मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥**
 ---
+
 Can't put the phenomenal experience of holding a meaningful pathway ahead after being a sincere M. Tech student at [Dhirubhai Ambani Institute of Information and Communication Technology](https://www.daiict.ac.in/) in a few lines. I was supervised by [Prof. Amit Mankodi](https://www.daiict.ac.in/profile/amit-mankodi/) and co-supervised by [Dr. Amit Bhatt](https://www.daiict.ac.in/profile/amit-bhatt/) and [Dr. Bhaskar Chaudhary](https://www.daiict.ac.in/profile/bhaskar-chaudhury/). 
 
 
