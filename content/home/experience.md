@@ -22,12 +22,27 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+
+  - title: Research Associate II
+    company: Philips Research
+    company_url: 'https://www.linkedin.com/company/philips/mycompany/verification/'
+    location: Bangalore, India
+    date_start: '2022-10-03'
+    date_end: ''
+    description: |2-
+        Responsibilities include :
+      * Explore and develop a variety of (AI) algorithms for health care applications  
+        * Interprets and analyses data 
+        * Build Natural Language Processing applications 
+        * Adopt powerful text representations 
+
+
   - title: Researcher
     company: Tata Consultancy Services
     company_url: 'https//www.tcs.com'
     location: Noida, India
     date_start: '2020-09-07'
-    date_end: ''
+    date_end: '2022-09-23'
     description: |2-
         Responsibilities include :
       * Development of  
