@@ -54,9 +54,7 @@ url_video: ""
 # - example
 ---
 
-**{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}**
+
 
 Slides can be added in a few ways:
 
