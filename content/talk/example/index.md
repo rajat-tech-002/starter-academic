@@ -60,7 +60,7 @@ url_video: ""
 # - example
 ---
 
-
+  
 Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file

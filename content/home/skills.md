@@ -56,8 +56,23 @@ feature:
   name: "C++"
   description: "90%"
 
+- icon: "sagemaker"
+  icon_pack: "custom"
+  name: "AWS SageMaker"
+  description: "60%"
+  
+- icon: "azure-boards"
+  icon_pack: "custom"
+  name: "Azure DevOps Board"
+  description: "70%"
+  
+- icon: "power_bi"
+  icon_pack: "custom"
+  name: "Power BI Tool"
+  description: "60%" 
+  
 - icon: "react"
   icon_pack: "custom"
   name: "React-JS"
-  description: "80%"  
+  description: "60%"   
 ---
