@@ -70,7 +70,17 @@ feature:
   icon_pack: "custom"
   name: "Power BI Tool"
   description: "60%" 
-  
+
+- icon: "docker"
+  icon_pack: "custom"
+  name: "Docker"
+  description: "60%" 
+
+- icon: "Kubernetes"
+  icon_pack: "custom"
+  name: "Kubernetes"
+  description: "60%" 
+
 - icon: "react"
   icon_pack: "custom"
   name: "React-JS"
