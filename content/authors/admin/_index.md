@@ -10,7 +10,7 @@ role: Research Associate II
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Philips Research 
+- name: Philips
   url: https://www.philips.com/a-w/about/innovation/research.html
 
 # Short bio (displayed in user profile at end of posts)
@@ -69,18 +69,33 @@ highlight_name: true
 ---
 ---
 
-I am a Researcher at [Philips Research](https://www.linkedin.com/company/philips/mycompany/verification/) where I work in [Healthcare Department](https://www.philips.com/a-w/about/innovation/research.html) since October 2022.
+
+I have experience in developing AI algorithms for healthcare applications using AWS. 
 
 ---
-Prior to that, I was a Researcher at [TCS Research](https://www.linkedin.com/showcase/tcs-research/), where I worked with [Mayur Patidar](https://scholar.google.co.in/citations?user=4dzFVVYAAAAJ&hl=en) and [Vaibhav Varsheney](https://scholar.google.com/citations?user=j9uFRYIAAAAJ&hl=en) in [Deep Learning and AI Group](https://www.tcs.com/bridging-the-human-machine-divide) since September 2020 under the guidance of [Dr. Lovekesh Vig](https://sites.google.com/site/lovekeshhome/).
-
-
+Previously, I worked as a Researcher at TCS Innovation Labs, where I published and patented my work on the Intent Detection and Discovery Problem. I also have experience as a Summer Research Intern at IIT Gandhinagar, where I worked on the open-source toolkit NILMTK.
 
 ---
 
 * My Research interests include:
   * Deep learning ∩ Natural Language processing 
   * Application of Unsupervised and Semi-Supervised methods on real world problems
+  
+
+
+
+
+---
+
+* My Skills include:
+  * Azure DevOps
+  * Microsoft Power BI
+  * AWS SageMaker
+  * Research and Development (R&D)
+  * TensorFlow, Pytorch, Keras
+  * Natural Language Processing (NLP)
+  * Deep Learning
+  * C, C++, SQL (Programming Language) 
   
 
 
