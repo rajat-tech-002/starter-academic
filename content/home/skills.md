@@ -85,4 +85,9 @@ feature:
   icon_pack: "custom"
   name: "React-JS"
   description: "60%"   
+
+- icon: "qlik"
+  icon_pack: "custom"
+  name: "Qlik Sense"
+  description: "80%"     
 ---

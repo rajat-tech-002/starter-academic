@@ -96,6 +96,8 @@ Previously, I worked as a Researcher at TCS Innovation Labs, where I published a
   * Natural Language Processing (NLP)
   * Deep Learning
   * C, C++, SQL (Programming Language) 
+  * Business Intelligence
+  * Qlik Sense
   
 
 
