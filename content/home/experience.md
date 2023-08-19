@@ -23,12 +23,25 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
 
+  - title: Data Science Associate II
+    company: Philips Innovation Planning Office
+    company_url: 'https://www.linkedin.com/company/philips/mycompany/verification/'
+    location: Bangalore, India
+    date_start: '2023-04-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include :
+      - Create value and impact by delivering meaningful insights, Prescriptive Analytics, and transfers to the business that contribute to Philips growth
+      - Apply and drive operational excellence in execution, working on continuous improvement and focusing on quality
+      - Build new predictions and prescriptions based on data that gives significant value to the business
+      - Represent Philips (Research) internally and externally on one or more competency domains
+      - Perform Market research and analysis to build Industry and Market threshold and benchmarks.
   - title: Research Associate II
     company: Philips Research
     company_url: 'https://www.linkedin.com/company/philips/mycompany/verification/'
     location: Bangalore, India
     date_start: '2022-10-03'
-    date_end: ''
+    date_end: '2023-03-31'
     description: |2-
         Responsibilities include :
       * Explore and develop a variety of (AI) algorithms for health care applications  

@@ -6,7 +6,7 @@ title: Rajat Kumar
 superuser: true
 
 # Role/position/tagline
-role: Research Associate II 
+role: Data Science Associate II 
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -21,6 +21,9 @@ interests:
 - Artificial Intelligence
 - Natural Language Processing
 - Data Science
+- Innovation Planning
+- Innovation Efficiency
+- Business Analytics
 
 # Education to show in About widget
 education:
@@ -70,16 +73,21 @@ highlight_name: true
 ---
 
 
-I have experience in developing AI algorithms for healthcare applications using AWS. 
+I have accumulated around 3+ years of professional experience across various R&D teams. Currently, I am part of Philips Innovation Planning Office where I am creating value and impact by delivering meaningful insights, Prescriptive Analytics, and transfers to the business that contribute to Philips growth.
+- Apply and drive operational excellence in execution, working on continuous improvement and focusing on quality
+- Build new predictions and prescriptions based on data that gives significant value to the business
+- Represent Philips (Research) internally and externally on one or more competency domains
+- Perform Market research and analysis to build Industry and Market threshold and benchmarks.
 
 ---
-Previously, I worked as a Researcher at TCS Innovation Labs, where I published and patented my work on the Intent Detection and Discovery Problem. I also have experience as a Summer Research Intern at IIT Gandhinagar, where I worked on the open-source toolkit NILMTK.
+I have experience in developing AI algorithms for healthcare applications using AWS. Previously, I worked as a Researcher at TCS Innovation Labs, where I published and patented my work on the Intent Detection and Discovery Problem. I also have experience as a Summer Research Intern at IIT Gandhinagar, where I worked on the open-source toolkit NILMTK.
 
 ---
 
 * My Research interests include:
   * Deep learning ∩ Natural Language processing 
   * Application of Unsupervised and Semi-Supervised methods on real world problems
+  * Business Analytics ∩ Machine Learning 
   
 
 
@@ -89,15 +97,14 @@ Previously, I worked as a Researcher at TCS Innovation Labs, where I published a
 
 * My Skills include:
   * Azure DevOps
-  * Microsoft Power BI
+  * Microsoft Power BI, Qlik Sense
   * AWS SageMaker
   * Research and Development (R&D)
   * TensorFlow, Pytorch, Keras
   * Natural Language Processing (NLP)
   * Deep Learning
   * C, C++, SQL (Programming Language) 
-  * Business Intelligence
-  * Qlik Sense
+  * Business Intelligence, Analytics
   
 
 
