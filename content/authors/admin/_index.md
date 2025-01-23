@@ -6,7 +6,7 @@ title: Rajat Kumar
 superuser: true
 
 # Role/position/tagline
-role: Data Science Associate II 
+role: Data Scientist II
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -21,9 +21,12 @@ interests:
 - Artificial Intelligence
 - Natural Language Processing
 - Data Science
+- MRI Imaging
+- Image Processing
 - Innovation Planning
 - Innovation Efficiency
 - Business Analytics
+
 
 # Education to show in About widget
 education:
@@ -73,18 +76,21 @@ highlight_name: true
 ---
 
 
-I have accumulated around 3+ years of professional experience across various R&D teams. Currently, I am part of Philips Innovation Planning Office where I am creating value and impact by delivering meaningful insights, Prescriptive Analytics, and transfers to the business that contribute to Philips growth.
-- Apply and drive operational excellence in execution, working on continuous improvement and focusing on quality
-- Build new predictions and prescriptions based on data that gives significant value to the business
-- Represent Philips (Research) internally and externally on one or more competency domains
-- Perform Market research and analysis to build Industry and Market threshold and benchmarks.
-
----
-I have experience in developing AI algorithms for healthcare applications using AWS. Previously, I worked as a Researcher at TCS Innovation Labs, where I published and patented my work on the Intent Detection and Discovery Problem. I also have experience as a Summer Research Intern at IIT Gandhinagar, where I worked on the open-source toolkit NILMTK.
+With over 4+ years of experience in Research and Development, 250+ google scholar
+citations, and a master’s degree in Machine Intelligence, I currently serve as a data
+scientist at Philips Innovation Strategy, where my work is driven by a commitment
+to enhancing patient outcomes. Collaborating closely with clinical scientists and
+data architects, I analyze complex numerical, textual, and image datasets to de-
+velop machine learning models that prioritize patient impact.
+Previously, I worked as a researcher at TCS Innovation Lab, focusing on developing
+NLP-based models for intent detection and discovery using large language models (LLMs). Additionally, I gained hands-on experience during my internship at IIT
+Gandhinagar, where I worked on the development of energy disaggregation algorithms, specifically utilizing the Non-Intrusive Load Monitoring Toolkit (NILMTK) for
+smart buildings.
 
 ---
 
 * My Research interests include:
+  * Image processing ∩ MRI 
   * Deep learning ∩ Natural Language processing 
   * Application of Unsupervised and Semi-Supervised methods on real world problems
   * Business Analytics ∩ Machine Learning 
@@ -96,26 +102,19 @@ I have experience in developing AI algorithms for healthcare applications using 
 ---
 
 * My Skills include:
-  * Azure DevOps
-  * Microsoft Power BI, Qlik Sense
-  * AWS SageMaker
   * Research and Development (R&D)
-  * TensorFlow, Pytorch, Keras
-  * Natural Language Processing (NLP)
+  * Pytorch, Keras, LLM
+  * Natural Language Processing (NLP), Image Processing
   * Deep Learning
   * C, C++, SQL (Programming Language) 
   * Business Intelligence, Analytics
+  * Azure DevOps
+  * Microsoft Power BI, Qlik Sense
+  * AWS SageMaker
   
 
 
 
----
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resume{{< /staticref >}}.
----
-
->`<What could possibly be a virtual verse? A Personal Computer?>`
-
->`<Why Information is the new HIGH?>`
 ---
 ## &nbsp;&nbsp;&nbsp;&nbsp;**कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।**
 

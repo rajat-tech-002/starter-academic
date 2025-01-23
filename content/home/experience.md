@@ -23,33 +23,21 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
 
-  - title: Data Science Associate II
-    company: Philips Innovation Planning Office
-    company_url: 'https://www.linkedin.com/company/philips/mycompany/verification/'
-    location: Bangalore, India
-    date_start: '2023-04-01'
-    date_end: ''
-    description: |2-
-        Responsibilities include :
-      - Create value and impact by delivering meaningful insights, Prescriptive Analytics, and transfers to the business that contribute to Philips growth
-      - Apply and drive operational excellence in execution, working on continuous improvement and focusing on quality
-      - Build new predictions and prescriptions based on data that gives significant value to the business
-      - Represent Philips (Research) internally and externally on one or more competency domains
-      - Perform Market research and analysis to build Industry and Market threshold and benchmarks.
-  - title: Research Associate II
-    company: Philips Research
+  - title: Data Scientist II
+    company: Philips Innovation 
     company_url: 'https://www.linkedin.com/company/philips/mycompany/verification/'
     location: Bangalore, India
     date_start: '2022-10-03'
-    date_end: '2023-03-31'
+    date_end: ''
     description: |2-
-        Responsibilities include :
-      * Explore and develop a variety of (AI) algorithms for health care applications  
-        * Interprets and analyses data 
-        * Build Natural Language Processing applications 
-        * Adopt powerful text representations 
-
-
+        
+        My work centers on data science projects that analyze numerical,
+        text, and image-based patient data. Currently, I am focused
+        on motion correction in MRI Spine images to improve imaging accuracy,
+        leveraging advanced data science techniques for impactful,
+        patient-centered insights. I have also developed data-driven
+        dashboards—such as the Project Ranking Tool and IGM Cost Analysis.
+  
   - title: Researcher
     company: Tata Consultancy Services
     company_url: 'https//www.tcs.com'
@@ -57,11 +45,13 @@ experience:
     date_start: '2020-09-07'
     date_end: '2022-09-23'
     description: |2-
-        Responsibilities include :
-      * Development of  
-        * Research Prototypes
-        * Tools  
-        * Products
+      
+      * Worked in the NLP subgroup of the Deep Learning and AI group.
+      * Have published and patented my work on the Intent Detection and
+        Discovery Problem, which was presented as a main track at the
+        highly-regarded NAACL (A rated) Conference.
+      *  Tools: Google-Colab, Python, Pytorch, Keras, Jupyter Notebook,
+      GitHub, Docker
 
         
   - title: Teaching Assistant
